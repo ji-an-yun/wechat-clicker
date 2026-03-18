@@ -1,0 +1,30 @@
+# 微信自动点击工具 - 依赖库列表
+
+## 必需的依赖库
+
+以下是运行本工具所需的所有依赖库：
+
+| 依赖库 | 版本 | 用途 | 安装命令 |
+|-------|------|------|----------|
+| pyautogui | >=0.9.53 | 屏幕截图和模拟鼠标点击 | pip install pyautogui |
+| Pillow | >=9.0.0 | 图像处理 | pip install Pillow |
+| numpy | >=1.20.0 | 图像数据分析 | pip install numpy |
+| pywin32 | >=303 | Windows窗口操作 | pip install pywin32 |
+
+## 一键安装命令
+
+使用以下命令可以一次性安装所有依赖：
+
+```bash
+pip install pyautogui Pillow numpy pywin32
+```
+
+## 标准库依赖（无需单独安装）
+
+| 依赖库 | 用途 |
+|-------|------|
+| subprocess | 检测进程状态 |
+| logging | 日志记录 |
+| time | 时间操作 |
+| os | 操作系统交互 |
+| sys | 系统相关参数 |
